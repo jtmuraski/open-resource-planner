@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ORP.Core.Models.Interfaces;
 
 namespace ORP.Core.Models.Core
 {
-    public class Person
+    public class Person : IPerson
     {
         // --Properties---
         public int Id { get; set; }
